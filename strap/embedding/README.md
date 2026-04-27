@@ -1,0 +1,6 @@
+## Configuring Embedding
+We have defined the CLIP and DINOv2 encoders in `strap/embedding/encoders.py`. You can define your own encoders by inheriting from the `BaseEncoder` class and overwriting the `encode` and `preprocess` methods. 
+
+To encode your datasets, use the `encode_datasets.py` script. This script will use the encoders you have defined in `get_encoders()` and the datasets you have defined in `get_datasets()`. Just change the dataset configs and the encoders list if you want to use different datasets or encoders. Set the `VERBOSE` flag to `False` to disable most of the logging statements. 
+
+We also have a parallelized version of the dataset saving process as we noticed a large bottleneck in the dataset saving process. You can enable this by setting the `saver_threads` argument in the `encode_dataset` function to the number of threads you want to use. You can also set the `image_size` of the crop, and the batch_size of the encoder, as well as if you want to flip the images. LIBERO has upside down images, so we set `flip_images=True` for the embeddings to improve performance.

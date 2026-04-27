@@ -1,0 +1,21 @@
+# environments
+strap_env/
+*.tar.gz
+cluster-env/
+cluster-env.tar.gz
+
+# python cache
+__pycache__/
+*.pyc
+
+# dataset (EXCLUDE THIS)
+data/LIBERO/
+
+# keep retrieval results (DO NOT IGNORE)
+# data/retrieval_results/  <-- intentionally NOT ignored
+
+# misc
+.env
+*.log
+data/retrieval_results/
+STRAP.egg-info/
