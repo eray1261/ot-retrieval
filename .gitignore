@@ -12,10 +12,8 @@ __pycache__/
 data/LIBERO/
 
 # keep retrieval results (DO NOT IGNORE)
-# data/retrieval_results/  <-- intentionally NOT ignored
 
 # misc
 .env
 *.log
-data/retrieval_results/
 STRAP.egg-info/

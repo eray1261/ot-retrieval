@@ -1,0 +1,4 @@
+Embedding similarity analysis is SKIPPED.
+Reason: retrieval HDF5 files do not store embeddings.
+To enable this, you must load DINO embeddings from the original embedding files
+using the same indexing (source_file, source_traj_key, start, end).

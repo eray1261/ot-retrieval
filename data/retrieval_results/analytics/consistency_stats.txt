@@ -1,0 +1,11 @@
+=== Retrieval Consistency (OT vs SDTW) ===
+
+Total retrievals: 98
+Same retrieved segment: 5.10%
+Different retrieved segment: 93 (94.90%)
+
+Cost difference for non-matching segments (OT - SDTW):
+  mean: -187.596141
+  std:  134.959440
+  min:  -489.819858
+  max:  -50.955712

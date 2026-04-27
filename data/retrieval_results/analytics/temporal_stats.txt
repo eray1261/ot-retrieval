@@ -1,0 +1,19 @@
+=== Temporal Alignment Differences (OT - SDTW) ===
+
+Start index diff (OT_start - SDTW_start):
+  mean: -64.744898
+  std:  41.180615
+  min:  -170.000000
+  max:  0.000000
+
+End index diff (OT_end - SDTW_end):
+  mean: 25.785714
+  std:  47.273250
+  min:  -51.000000
+  max:  181.000000
+
+Length diff (OT_len - SDTW_len):
+  mean: 90.530612
+  std:  60.618783
+  min:  0.000000
+  max:  270.000000

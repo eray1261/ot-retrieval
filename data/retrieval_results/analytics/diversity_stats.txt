@@ -1,0 +1,14 @@
+=== Retrieval Diversity / Entropy ===
+
+SDTW:
+  unique demos: 49
+  total retrieved: 98
+  frac unique: 0.5000
+  entropy: 3.628294
+
+OT:
+  unique demos: 33
+  total retrieved: 98
+  frac unique: 0.3367
+  entropy: 3.210577
+

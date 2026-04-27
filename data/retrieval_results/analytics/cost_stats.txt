@@ -1,0 +1,20 @@
+=== Retrieval Cost Statistics ===
+
+SDTW:
+  mean: 189.458704
+  std: 137.843984
+  min: 0.000000
+  max: 500.756249
+
+OT:
+  mean: 11.433794
+  std: 3.370684
+  min: 0.000000
+  max: 18.511696
+
+Paired Comparison (OT - SDTW):
+  mean diff: -178.024909
+  std  diff: 137.799419
+  min  diff: -489.819858
+  max  diff: 0.000000
+  % queries where OT_cost < SDTW_cost: 94.90%
